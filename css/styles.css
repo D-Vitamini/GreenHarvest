@@ -32,6 +32,12 @@ img {
   padding: 0 100px;
 
 }
+.reviews-title {
+  max-width: 553px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 .reviews-from {
   font-weight: 600;
   font-size: 64px;
