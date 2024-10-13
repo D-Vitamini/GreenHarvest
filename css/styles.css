@@ -25,12 +25,20 @@ ul {
 img {
   display: block;
 }
+.reviews {
+  background-color: #FBFBFB;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+
+}
 .reviews-from {
   font-weight: 600;
   font-size: 64px;
   letter-spacing: -1.5%;
   color: #141414;
   line-height: 1;
+  text-align: left;
 }
 .customers {
   font-weight: 600;
@@ -38,6 +46,7 @@ img {
   letter-spacing: -1.5%;
   color:#576f35;
   line-height: 1;
+  text-align: left;
 }
 .reviews-p {
   font-weight: 500;
