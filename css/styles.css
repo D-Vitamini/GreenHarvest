@@ -30,6 +30,7 @@ img {
   background-color: #FBFBFB;
   width: 100%;
   margin: 0 auto;
+  
 
 }
 .reviews-title {
@@ -62,6 +63,7 @@ img {
 }
 .reviews-list {
   display: flex;
+  margin-top: 50px;
 }
 .reviews-person-list {
   list-style-type: none;
