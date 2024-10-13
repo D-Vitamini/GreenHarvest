@@ -25,3 +25,17 @@ ul {
 img {
   display: block;
 }
+.reviews-from {
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: -1.5%;
+  color: #141414;
+  line-height: 1;
+}
+.customers {
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: -1.5%;
+  color:#576f35;
+  line-height: 1;
+}
