@@ -60,3 +60,18 @@ img {
   color: #141414;
   line-height: 1.25;
 }
+.reviews-list {
+  display: flex;
+}
+.reviews-person-list {
+  list-style-type: none;
+  display: flex;
+  gap:25px;
+
+}
+.reviews-person-list-item {
+  max-width: 343px;
+  border: 1px solid #7A31454D;
+  border-radius: 24px;
+
+}
