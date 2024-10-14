@@ -26,3 +26,38 @@ ul {
 img {
   display: block;
 }
+.advertisement{
+  width: Hug (1,280px)px;
+height: Hug (440px)px;
+top: 1559px;
+padding: 100px 0px 0px 0px;
+gap: 10px;
+opacity: 0px;
+background: rgba(251, 251, 251, 1);
+
+}
+.advert-text {
+width: 1054px;
+height: 240px;
+left: 13px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter Tight;
+font-size: 76px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: -0.015em;
+text-align: left;
+text-transform: uppercase;
+}
+.discount-span {
+  font-family: Inter Tight;
+font-size: 76px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: -0.015em;
+text-align: left;
+color: rgba(251, 251, 251, 1);
+background: rgba(87, 111, 53, 1);
+
+}
