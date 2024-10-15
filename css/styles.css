@@ -31,10 +31,23 @@ img {
   background-color: #7A3145;
   color: #FBFBFB;
   height: 391px;
-  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+ 
 }
 
 .container-footer {
+  width: 1080px;
+  height: 146px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  vertical-align: baseline;
+}
+
+.footer-ending {
+  
   width: 1080px;
   display: flex;
   flex-direction: row;
@@ -43,3 +56,56 @@ img {
   vertical-align: baseline;
 }
 
+.footer-logo-a {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.footer-text {
+font-family: "Inter Tight", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+}
+
+.footer-nav-list {
+  list-style-type: none;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  
+}
+
+.footer-nav-list-item {
+font-family: inherit;
+text-decoration: none;
+color: #FBFBFB;
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+
+.footer-address {
+font-family: inherit;
+text-decoration: none;
+list-style-type: none;
+font-size: 18px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: left;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.footer-address a {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  color: #FBFBFB;
+}
