@@ -1,12 +1,11 @@
 *,
-::before, 
+::before,
 ::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-family: "Inter Tight", sans-serif;
   color: #141414;
   width: 100%;
@@ -35,13 +34,9 @@ img {
 }
 
 .footer {
-  background-color: #7A3145;
-  color: #FBFBFB;
+  background-color: #7a3145;
+  color: #fbfbfb;
   height: 391px;
-  
-  
-
- 
 }
 
 .container-footer {
@@ -66,12 +61,12 @@ img {
   list-style-type: none;
   text-decoration: none;
   font-family: inherit;
-  padding: 150px 100px 100px 100px ;
+  padding: 150px 100px 100px 100px;
   margin: 0 auto;
 }
 
 .footer-ending a {
-    list-style-type: none;
+  list-style-type: none;
   text-decoration: none;
   font-family: inherit;
   color: rgba(251, 251, 251, 0.5);
@@ -83,11 +78,11 @@ img {
 }
 
 .footer-text {
-font-family: "Inter Tight", sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 20px;
-text-align: left;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
 }
 
 .footer-nav-list {
@@ -96,37 +91,36 @@ text-align: left;
   display: flex;
   flex-direction: column;
   gap: 25px;
-  
 }
 
 .footer-nav-list-item {
-font-family: inherit;
-text-decoration: none;
-color: #FBFBFB;
-font-size: 32px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: -0.015em;
-text-align: left;
+  font-family: inherit;
+  text-decoration: none;
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
 }
 
 .footer-address {
-font-family: inherit;
-text-decoration: none;
-list-style-type: none;
-font-size: 18px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: -0.015em;
-text-align: left;
-display: flex;
-flex-direction: column;
-gap: 25px;
+  font-family: inherit;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .footer-address a {
   text-decoration: none;
   list-style-type: none;
   font-style: normal;
-  color: #FBFBFB;
+  color: #fbfbfb;
 }
