@@ -47,6 +47,7 @@ img {
   justify-content: space-between;
   align-items: flex-start;
   vertical-align: baseline;
+  padding: 50px 100px 100px 100px;
 }
 
 .footer-ending {
@@ -61,7 +62,7 @@ img {
   list-style-type: none;
   text-decoration: none;
   font-family: inherit;
-  padding: 150px 100px 100px 100px;
+  padding: 200px 100px 200px 100px;
   margin: 0 auto;
 }
 
