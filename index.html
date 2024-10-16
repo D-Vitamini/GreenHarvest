@@ -53,6 +53,7 @@
                 name="name"
                 id="name"
                 placeholder="Full Name"
+                required
               />
               <input
                 class="form-inputs"
@@ -60,22 +61,54 @@
                 name="email"
                 id="email"
                 placeholder="Email"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                required
               />
               <textarea
                 class="form-comment"
                 id="comment"
                 name="comment"
                 placeholder="Comment"
+                required
               ></textarea>
               <button type="button" class="send-button">SEND</button>
             </form>
           </div>
           <div class="social-networks">
-            <img src="./images/social-networks.jpg" width="427" alt="social-networks">
-            <p class="networks-p">Follow us on our social networks:</p>
-            <a href="https://www.instagram.com/goit.turkiye/" class="social-media">instagram</a> /
-            <a href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/" class="social-media">facebook</a> /
-            <a href="https://m.youtube.com/@GoITTurkey" class="social-media">youtube</a>
+            <img
+              src="./images/networks.jpg"
+              class="responsive-image"
+              alt="social-networks"
+              width="427"
+            />
+            <div class="networks">
+              <p>Follow us on our social networks:</p>
+              <ul class="networks-list">
+                <li>
+                  <a
+                    href="https://www.instagram.com/goit.turkiye/"
+                    class="social-media"
+                    >instagram</a
+                  >
+                </li>
+                /
+                <li>
+                  <a
+                    href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
+                    class="social-media"
+                    >facebook</a
+                  >
+                </li>
+                /
+                <li>
+                  <a
+                    href="https://m.youtube.com/@GoITTurkey"
+                    class="social-media"
+                    >youtube</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
