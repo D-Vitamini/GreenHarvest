@@ -1,3 +1,10 @@
+*,
+::before, 
+::after {
+    box-sizing: border-box;
+}
+
+
 body {
   background-color: #FBFBFB;
   font-family: "Inter Tight", sans-serif;
@@ -31,13 +38,14 @@ img {
   background-color: #7A3145;
   color: #FBFBFB;
   height: 391px;
-  display: flex;
-  flex-wrap: wrap;
+  
+  
+
  
 }
 
 .container-footer {
-  width: 1080px;
+  max-width: 1080px;
   height: 146px;
   display: flex;
   flex-direction: row;
@@ -47,13 +55,26 @@ img {
 }
 
 .footer-ending {
-  
-  width: 1080px;
+  max-width: 1080px;
+  height: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   vertical-align: baseline;
+  color: rgba(251, 251, 251, 0.5);
+  list-style-type: none;
+  text-decoration: none;
+  font-family: inherit;
+  padding: 150px 100px 100px 100px ;
+  margin: 0 auto;
+}
+
+.footer-ending a {
+    list-style-type: none;
+  text-decoration: none;
+  font-family: inherit;
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .footer-logo-a {
