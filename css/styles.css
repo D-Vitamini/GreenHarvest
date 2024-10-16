@@ -1,5 +1,5 @@
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-family: "Inter Tight", sans-serif;
   color: #141414;
   width: 100%;
@@ -9,6 +9,7 @@ body {
   width: 100%;
   margin: 0 auto;
   align-items: center;
+  padding: 100px;
 }
 p,
 h1,
@@ -25,3 +26,102 @@ ul {
 img {
   display: block;
 }
+
+/* YOUR ORDER */
+
+.your-order {
+  background-color: #7a3145;
+  color: #fbfbfb;
+}
+
+.order-title {
+  width: 751px;
+}
+
+.fresh {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.harvest {
+  color: #fbfbfb4d;
+}
+
+.fresh-content {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  
+}
+
+.form-and-social {
+  margin-top: 50px;
+}
+
+.form-div {
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  color: #141414;
+  padding: 50px;
+  width: 529px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.from-us {
+  color: #7a3145;
+}
+
+.the-form {
+  color: #576f35;
+}
+
+.form-inputs, .form-comment, .send-button {
+  height: 52px;
+  padding: 16px;
+  gap: 10px;
+  border-radius: 30px;
+  opacity: 0px;
+  border: 1px solid #14141433;
+}
+
+.form-comment {
+  resize: none;
+  height: 95px;
+}
+
+.form-inputs::placeholder, .form-comment::placeholder {
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #141414;
+}
+
+.send-button {
+  background-color: #576f35;
+  color:#fbfbfb;
+  border: none;
+}
+
+
+
