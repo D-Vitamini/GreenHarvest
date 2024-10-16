@@ -69,9 +69,8 @@ img {
   gap: 25px;
 }
 .reviews-person-list-item-one {
-  max-width: 343px;
-  max-height: 258px;
   
+  width: calc(100% / 3 - 50px);
   border: 1px solid #7a31454d;
   border-radius: 24px;
   display: flex;
@@ -80,8 +79,7 @@ img {
   padding: 20px;
 }
 .reviews-person-list-item-two {
-  max-width: 343px;
-  min-height: 258px;
+  width: calc(100% / 3 - 50px);
   border: 1px solid #7a31454d;
   border-radius: 24px;
   display: flex;
@@ -90,8 +88,8 @@ img {
   padding: 20px;
 }
 .reviews-person-list-item-three {
-  max-width: 343px;
-  max-height: 258px;
+  
+  width: calc(100% / 3 - 50px);
   border: 1px solid #7a31454d;
   border-radius: 24px;
   display: flex;
