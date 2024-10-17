@@ -115,7 +115,7 @@ img {
 }
 
 @media (min-width: 375px) {
-  .container{
+  .container {
     padding: 80px 20px;
   }
   .reviews-person-list-item-two,
@@ -149,7 +149,10 @@ img {
     font-size: 14px;
     line-height: 1.28;
   }
-
+  .reviews-title {
+    max-width: 335px;
+  }
+ 
 }
 @media (min-width: 768px) {
   .reviews-person-list-item-three {
@@ -160,15 +163,28 @@ img {
     width: calc((100% - 18px) / 2);
     display: flex;
   }
+  .reviews-title {
+    max-width: 553px;
+  }
 }
 @media (min-width: 1280px) {
   .reviews-person-list-item-two,
   .reviews-person-list-item-one,
   .reviews-person-list-item-three {
     display: flex;
+    align-items: center;
+    
     width: calc((100% - 50px) / 3);
   }
-  .reviews-person-list{
+  .reviews-person-list {
     justify-content: space-between;
+  }
+  .reviews-title {
+    max-width: 553px;
+  }
+}
+@media screen and (max-width: 768px) {
+  br {
+    display: none; /* Mobil cihazlarda br'yi inline yapar */
   }
 }
