@@ -213,14 +213,14 @@ img {
     }
 
     .athletic-woman {
-        flex-basis: 49.2%;
+        flex-basis: 50%;
         flex-grow: 1;
         flex-shrink: 1;
         padding: 100px;
     }
 
     .text-section {
-        flex-basis: 50.8%;
+        flex-basis: 50%;
         flex-grow: 1;
         flex-shrink: 1;
         padding: 100px 160px;
