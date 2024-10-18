@@ -155,7 +155,6 @@ img {
 }
 
 .networks {
-
   margin-top: 50px;
   font-weight: 600;
   letter-spacing: -0.015em;
@@ -223,11 +222,10 @@ img {
   .container {
     padding: 72px;
   }
-  
+
   .form-and-social {
     flex-direction: column;
     justify-content: center;
-
   }
   .form-div {
     width: 100%;
@@ -236,7 +234,6 @@ img {
     width: 100%;
   }
 }
-  
 
 @media screen and (min-width: 1280px) {
   .form-and-social {
