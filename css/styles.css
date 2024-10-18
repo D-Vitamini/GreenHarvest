@@ -237,7 +237,7 @@ img {
 }
   
 
-@media screen and (min-width: 1258px) {
+@media screen and (min-width: 1280px) {
   .form-and-social {
     flex-direction: row;
   }
