@@ -36,6 +36,7 @@ img {
   max-width: 553px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 25px;
 }
 .reviews-from {
@@ -59,6 +60,7 @@ img {
   font-size: 16px;
   color: #141414;
   line-height: 1.25;
+  text-align: left;
 }
 .reviews-list {
   display: flex;
@@ -149,6 +151,9 @@ img {
     font-size: 14px;
     line-height: 1.28;
   }
+  .reviews-title {
+    max-width: 335px;
+  }
 }
 @media (min-width: 768px) {
   .reviews-person-list-item-three {
@@ -158,6 +163,33 @@ img {
   .reviews-person-list-item-two {
     width: calc((100% - 18px) / 2);
     display: flex;
+  }
+  .reviews-title {
+    max-width: 553px;
+
+  }
+  .reviews-from {
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.5%;
+    color: #141414;
+    line-height: 1;
+    text-align: left;
+  }
+  .customers {
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.5%;
+    color: #576f35;
+    line-height: 1;
+    text-align: left;
+  }
+  .reviews-p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #141414;
+    line-height: 1.25;
+    text-align: left;
   }
 }
 @media (min-width: 1280px) {
@@ -172,9 +204,22 @@ img {
   .reviews-person-list {
     justify-content: space-between;
   }
+  .reviews-title {
+    max-width: 553px;
+  }
+  .reviews-p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #141414;
+    line-height: 1.25;
+    text-align: left;
+  }
 }
 @media screen and (max-width: 768px) {
   .title-space {
+    display: none;
+  }
+  .p-space {
     display: none;
   }
 }
