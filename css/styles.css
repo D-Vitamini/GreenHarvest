@@ -159,6 +159,12 @@ img {
   .reviews-person-list-item-three {
     display: none;
   }
+  .reviews-person-list-item-one {
+    padding: 20px;
+  }
+  .reviews-person-list-item-two {
+    padding: 20px 20px 42px 20px;
+  }
   .reviews-person-list-item-one,
   .reviews-person-list-item-two {
     width: calc((100% - 18px) / 2);
@@ -191,6 +197,24 @@ img {
     line-height: 1.25;
     text-align: left;
   }
+  .reviews-list-title {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -2%;
+    color: #141414;
+    line-height: 1.1;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  .reviews-list-p {
+    font-weight: 500;
+    color: #14141466;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
 }
 @media (min-width: 1280px) {
   .reviews-person-list-item-two,
@@ -200,6 +224,9 @@ img {
     align-items: center;
 
     width: calc((100% - 50px) / 3);
+  }
+  .reviews-person-list-item-three {
+    padding: 20px;
   }
   .reviews-person-list {
     justify-content: space-between;
