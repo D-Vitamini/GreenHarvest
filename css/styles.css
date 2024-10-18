@@ -195,7 +195,8 @@ img {
 
 @media screen and (min-width: 320px) {
   .container {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .fresh {
     font-size: 48px;
@@ -216,11 +217,16 @@ img {
   .social-networks {
     width: 100%;
   }
+
+  .footer-first {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    padding: 72px;
+    padding-left: 72px;
+    padding-right: 72px;
   }
 
   .form-and-social {
@@ -233,10 +239,122 @@ img {
   .social-networks {
     width: 100%;
   }
+
+  .footer-nav {
+    flex-direction: column;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .form-and-social {
     flex-direction: row;
   }
+
+}
+
+
+
+/*footer*/
+
+.footer {
+  background-color: #7a3145;
+  color: #fbfbfb;
+  min-height: 391px;
+}
+
+.footer-first {
+  height: 146px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: baseline;
+
+}
+
+.footer-nav {
+ display: flex;
+ flex-direction: row;
+ gap: 100px;
+ margin-bottom: 50px;
+}
+
+.footer-logo-div {
+  max-width: 265px;
+}
+
+.footer-ending {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: baseline;
+  color: rgba(251, 251, 251, 0.5);
+  list-style-type: none;
+  text-decoration: none;
+  font-family: inherit;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.footer-ending a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: inherit;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.footer-logo-a {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.footer-text {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.footer-nav-list {
+  list-style-type: none;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 177px;
+}
+
+.footer-nav-list-item {
+  font-family: inherit;
+  text-decoration: none;
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.footer-address {
+  font-family: inherit;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 215px;
+}
+
+
+.footer-address a {
+  text-decoration: none;
+  list-style-type: none;
+  font-style: normal;
+  color: #fbfbfb;
 }
