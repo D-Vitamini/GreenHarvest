@@ -8,7 +8,7 @@ body {
   min-width: 320px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px 100px;
+  padding: 100px 20px;
   align-items: center;
 }
 
@@ -229,8 +229,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    padding-left: 72px;
-    padding-right: 72px;
+    padding: 100px 72px;
   }
 
   .fresh {
@@ -260,10 +259,7 @@ img {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
     padding: 100px;
-    align-items: center;
     padding: 100px;
   }
 
