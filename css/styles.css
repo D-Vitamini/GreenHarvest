@@ -193,7 +193,7 @@ img {
   object-position: bottom;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 375px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
