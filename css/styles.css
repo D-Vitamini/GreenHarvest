@@ -37,12 +37,9 @@ img {
 }
 
 .advert-text {
-
-  width: 1054px;
   height: 240px;
   gap: 0px;
   opacity: 0px;
-  font-family: Inter Tight;
   font-size: 76px;
   font-weight: 600;
   line-height: 80px;
@@ -53,11 +50,10 @@ img {
 }
 
 .discount-span {
-  width: 808px;
+  max-width: 808px;
   height: 86px;
   gap: 0px;
   border-radius: 12px;
-  font-family: Inter Tight;
   font-size: 76px;
   font-weight: 600;
   line-height: 80px;
@@ -67,7 +63,6 @@ img {
   background: rgba(87, 111, 53, 1);
 }
 .visually-hidden {
- 
   position: absolute;
   width: 1px;
   height: 1px;
@@ -80,3 +75,29 @@ img {
   overflow: hidden;
 }
 
+@media screen and (min-width: 360px){
+.advert-text {
+font-size: 64px;
+line-height: 70px;
+} 
+
+.discount-span {
+  font-size: 64px;
+  line-height: 70px;
+  } 
+}
+
+@media screen and (min-width: 768px) {
+  .advert-text {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+
+  .discount-span {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+  
+}
