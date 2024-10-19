@@ -234,7 +234,7 @@ img {
 .reviews-from {
   font-weight: 600;
   font-size: 64px;
-  letter-spacing: -1.5%;
+  letter-spacing: -0.01em;
   color: #141414;
   line-height: 1;
   text-align: left;
@@ -242,7 +242,7 @@ img {
 .customers {
   font-weight: 600;
   font-size: 64px;
-  letter-spacing: -1.5%;
+  letter-spacing: -0.01em;
   color: #576f35;
   line-height: 1;
   text-align: left;
