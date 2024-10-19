@@ -239,10 +239,6 @@ img {
   .social-networks {
     width: 100%;
   }
-
-  .footer-nav {
-    flex-direction: column;
-  }
 }
 
 @media screen and (min-width: 1280px) {
