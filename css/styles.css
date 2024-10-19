@@ -75,7 +75,7 @@ img {
   overflow: hidden;
 }
 
-@media screen and (min-width: 360px){
+@media screen and (min-width: 375px){
 .advert-text {
 font-size: 64px;
 line-height: 70px;
@@ -88,6 +88,21 @@ line-height: 70px;
 }
 
 @media screen and (min-width: 768px) {
+  .advert-text {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+
+  .discount-span {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+  }
+  
+}
+
+@media screen and (min-width: 1280px) {
   .advert-text {
     font-size: 76px;
     font-weight: 600;
