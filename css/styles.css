@@ -4,11 +4,19 @@ body {
   color: #141414;
   width: 100%;
 }
-.container {
+/*.container {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 100px;
+  align-items: center;
+}*/
+
+.container {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 20px;
   align-items: center;
 }
 p,
