@@ -30,7 +30,7 @@ img {
   display: block;
 }
 
-/* div for images and background color */
+
 
 header {
   width: 1280px;
@@ -48,22 +48,6 @@ header {
   z-index: 1;
   align-items: center;
 }
-
-/* .logo img {
-  height: 20px;
-}
-.logo h1 {
-  color: white;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 50%;
-  position: absolute;
-  left: 0;
-} */
 
 .logo {
   width: 50%;
@@ -187,9 +171,7 @@ header {
   margin-top: 60px;
 }
 
-
-
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   header {
     width: 375px;
     height: 812px;
