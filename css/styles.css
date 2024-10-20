@@ -1,14 +1,22 @@
 body {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   font-family: "Inter Tight", sans-serif;
   color: #141414;
   width: 100%;
 }
-.container {
+/*.container {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
   padding: 100px;
+  align-items: center;
+}*/
+
+.container {
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 20px;
   align-items: center;
 }
 p,
@@ -25,4 +33,126 @@ ul {
 }
 img {
   display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advertisement {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.advert-text {
+  max-width: 355px;
+
+  display: flex;
+  display: inline-block;
+}
+
+.disc-text {
+  width: 100%;
+  max-width: 335px;
+  font-family: Inter Tight;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.discount-span {
+  display: inline-block;
+  max-width: 335px;
+  width: 100%;
+  font-family: Inter Tight;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  color: rgba(251, 251, 251, 1);
+  background: rgba(87, 111, 53, 1);
+  background-size: 102px;
+  text-align: left;
+  text-transform: uppercase;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 375x) {
+  .disc-text {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 335px;
+    width: 100%;
+  }
+
+  .discount-span {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 335px;
+    width: 100%;
+  }
+  .advert-text {
+    max-width: 355px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .disc-text {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    max-width: 704px;
+    width: 100%;
+  }
+
+  .discount-span {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    max-width: 736px;
+    width: 100%;
+  }
+
+  .advert-text {
+    max-width: 736px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .disc-text {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+    max-width: 1054px;
+    width: 100%;
+  }
+
+  .discount-span {
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 80px;
+    max-width: 808px;
+    width: 100%;
+  }
+  .advert-text {
+    max-width: 1080px;
+    width: 100%;
+  }
 }
