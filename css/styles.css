@@ -4,6 +4,7 @@ body {
   color: #141414;
   width: 100%;
 }
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -11,6 +12,7 @@ body {
   padding: 100px;
   align-items: center;
 }
+
 p,
 h1,
 h2,
@@ -47,14 +49,17 @@ h1 {
 }
 
 h1.organic-vegetables {
-  font-size: 64px;
-  margin: 0 0 10px 20px;
+  font-size: 48px; 
+  width: 335px; 
+  height: 80px; 
+  gap: 20px; 
+  opacity: 1; 
 }
 
 h1.organic-vegetables::after {
   content: "VEGETABLES";
   display: block;
-  font-size: 64px;
+  font-size: 48px; 
   font-weight: 600;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -65,7 +70,7 @@ h1.organic-vegetables::after {
 /* Açıklama bölümü */
 .description {
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 14px; 
   max-width: 800px;
   margin-left: 20px;
 }
@@ -74,8 +79,8 @@ h1.organic-vegetables::after {
 .product-list {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  grid-template-columns: 1fr; 
+  gap: 20px; 
   margin-top: 50px;
   margin-left: 20px;
 }
@@ -101,49 +106,69 @@ h1.organic-vegetables::after {
 
 /* Başlık ve paragraf stilleri */
 h2 {
-  font-size: 24px;
+  font-size: 20px; 
   margin: 10px 0;
   text-align: left;
 }
 
 p {
-  font-size: 18px;
-  text-align: left;
+  font-size: 16px; 
+  text-align: left; 
 }
 
-/* Tablet ve mobil düzenlemeler */
-@media (max-width: 1158px) {
-  .product-list {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-}
-
-@media (max-width: 768px) {
+/* 375px için düzenleme */
+@media (min-width: 375px) {
   h1.organic-vegetables {
-    font-size: 48px;
+    font-size: 48px; 
   }
 
   h1.organic-vegetables::after {
-    font-size: 48px;
-    top: 48px;
+    font-size: 48px; 
+  }
+}
+
+/* 768px için düzenleme */
+@media (min-width: 768px) {
+  h1.organic-vegetables {
+    font-size: 64px; 
+    opacity: 1; 
+  }
+
+  h1.organic-vegetables::after {
+    font-size: 64px;
   }
 
   .description {
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 70px;
   }
 
   .product-list {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
+  }
+}
+
+/* 1280px için düzenleme */
+@media (min-width: 1280px) {
+  h1.organic-vegetables {
+    font-size: 64px;
+  }
+
+  h1.organic-vegetables::after {
+    font-size: 64px;
+  }
+
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
   }
 }
