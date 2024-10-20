@@ -27,7 +27,7 @@ ul {
 img {
   display: block;
 }
-.reviews {
+#reviews {
   background-color: #fbfbfb;
   width: 100%;
   margin: 0 auto;
