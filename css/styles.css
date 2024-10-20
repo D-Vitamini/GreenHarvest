@@ -103,10 +103,12 @@ h1.organic-vegetables::after {
 h2 {
   font-size: 24px;
   margin: 10px 0;
+  text-align: left;
 }
 
 p {
   font-size: 18px;
+  text-align: left;
 }
 
 /* Tablet ve mobil düzenlemeler */
