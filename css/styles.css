@@ -9,7 +9,6 @@ body {
   max-width: 1280px;
   width: 100%;
   margin: 0 auto;
-  padding: 100px;
   align-items: center;
 }
 p,
@@ -23,6 +22,9 @@ ul {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container-reviews {
+  padding: 80px 20px;
 }
 img {
   display: block;
@@ -99,7 +101,7 @@ img {
 }
 
 @media (min-width: 375px) {
-  .container {
+  .container-reviews {
     padding: 80px 20px;
   }
   
@@ -120,7 +122,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container-reviews {
     padding: 100px 32px;
   }
   .reviews-person-list {
@@ -197,7 +199,7 @@ img {
 }
 
 @media (min-width: 1280px) {
-  .container {
+  .container-reviews {
     padding: 100px;
   }
   .reviews-person-list-item-two,
