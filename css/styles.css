@@ -4,13 +4,6 @@ body {
   color: #141414;
   width: 100%;
 }
-/*.container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 100px;
-  align-items: center;
-}*/
 
 .container {
   min-width: 320px;
@@ -55,9 +48,8 @@ img {
 
 .advert-text {
   max-width: 355px;
-
-  display: flex;
-  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
 }
 
 .disc-text {
@@ -70,7 +62,6 @@ img {
   letter-spacing: -0.015em;
   text-align: left;
   text-transform: uppercase;
-  display: inline-block;
 }
 .discount-span {
   display: inline-block;
@@ -84,7 +75,6 @@ img {
   color: rgba(251, 251, 251, 1);
   background: rgba(87, 111, 53, 1);
   background-size: 102px;
-  text-align: left;
   text-transform: uppercase;
   border-radius: 12px;
   padding: 5px;
@@ -142,6 +132,7 @@ img {
     line-height: 80px;
     max-width: 1054px;
     width: 100%;
+    margin: auto;
   }
 
   .discount-span {
@@ -150,9 +141,11 @@ img {
     line-height: 80px;
     max-width: 808px;
     width: 100%;
+    margin: auto;
   }
   .advert-text {
     max-width: 1080px;
     width: 100%;
+    margin: auto;
   }
 }
