@@ -11,10 +11,10 @@ body {
   width: 100%;
 }
 .container {
-  max-width: 1280px;
+  min-width: 320px;
   width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 100px 20px;
   align-items: center;
 }
 p,
@@ -40,11 +40,12 @@ img {
 
 .container-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   vertical-align: baseline;
-  padding: 72px;
+  padding: 40px;
+  gap: 40px;
 }
 
 .footer-logo-a {
@@ -63,7 +64,7 @@ img {
 .footer-nav-menu {
   display: flex;
   flex-direction: column; /* Dikey dizilim */
-  gap: 175px; /* Geniş ekranlar için boşluk */
+  gap: 40px; /* Geniş ekranlar için boşluk */
 }
 
 .footer-nav-list {
@@ -107,12 +108,12 @@ img {
 }
 
 .footer-ending {
-  max-width: 1280px;
+  min-width: 320px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: rgba(251, 251, 251, 0.5);
-  padding: 72px;
+  padding: 40px;
   margin: 0 auto;
 }
 
@@ -121,42 +122,20 @@ img {
   text-decoration: none;
   font-family: inherit;
   color: rgba(251, 251, 251, 0.5);
+  font-size: 16px;
 }
 
 /* Responsive kurallar */
 
-/* 375px ve altı için */
-@media (max-width: 375px) {
-  .container-footer {
-    flex-direction: column; /* Dikey dizilim */
-    padding: 20px; /* Küçük ekranlar için daha az padding */
-    gap: 40px;
-  }
-
-  .footer-ending {
-    flex-direction: row; /* Yatay dizilim */
-    justify-content: space-between; /* Elemanları yatay sırala */
-    padding: 40px 20px;
-  }
-
-  .footer-nav-menu {
-    gap: 25px; /* Küçük ekranlar için boşluk */
-  }
-
-  .footer-ending a {
-    font-size: 14px; /* Küçük yazı boyutu */
-  }
-}
-
 @media (min-width: 375px) {
   .container-footer {
-    flex-direction: row; /* Yatay dizilim */
+    flex-direction: column; /* Yatay dizilim */
     padding: 40px; /* Orta boyutlu ekranlar için padding */
     gap: 40px;
   }
 
   .footer-nav-menu {
-    gap: 50px; /* Elemanlar arasında boşluk */
+    gap: 40px; /* Elemanlar arasında boşluk */
   }
 
   .footer-ending {
@@ -193,10 +172,23 @@ img {
 }
 
 @media (min-width: 1280px) {
-  .container-footer {
-    flex-direction: row; /* Yatay dizilim */
-    padding: 72px;
+
+  .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  align-items: center;
   }
+
+  .container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  vertical-align: baseline;
+  padding: 72px;
+}
 
   .footer-nav-menu {
     flex-direction: row; /* Yatay dizilim */
@@ -204,7 +196,9 @@ img {
   }
 
   .footer-ending {
+    max-width: 1280px;
     flex-direction: row;
     justify-content: space-between;
+    padding: 72px;
   }
 }
