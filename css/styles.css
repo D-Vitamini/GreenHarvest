@@ -1,9 +1,3 @@
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fbfbfb;
   font-family: "Inter Tight", sans-serif;
