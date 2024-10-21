@@ -68,17 +68,11 @@ header {
   list-style-type: none;
   gap: 5px;
   position: absolute;
-  right: 0;
   top: 0;
+  right: 8%;
   margin-top: 50px;
-  margin-right: 100px;
   justify-content: space-evenly;
-}
-
-.link nav ul li{
-  display: flex;
-  padding-left: 60px;
-  margin-top: -10px;
+  gap: 20px;
 }
 
 .link nav ul li a {
