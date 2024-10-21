@@ -35,8 +35,9 @@ header {
   width: 100%;
   height: 800px;
   position: relative;
-  margin: auto;
+  
 }
+
 
 .navbar {
   width: 100%;
@@ -170,9 +171,9 @@ header {
   margin-top: 60px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   header {
-    width: 375px;
+    width: 100%;
     height: 812px;
   }
 
@@ -239,7 +240,7 @@ header {
 }
 
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
 
   .backgroundRight {
     background-position: center;
@@ -248,7 +249,7 @@ header {
   }
 
   header {
-    width: 768px;
+    width: 100%;
     height: 1024px;
   }
 
@@ -338,6 +339,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 .athletic-woman {
@@ -347,7 +349,7 @@ header {
   padding-bottom: 40px;
 }
 
-.responsive-image {
+img.responsive-image {
   border-radius: 30px;
   max-width: 450px;
   width: 100%;
@@ -454,8 +456,11 @@ header {
   .responsive-image {
     max-width: 450px;
     width: 100%;
-    height: 450px;
-  }
+      }
+
+.works {
+  padding-bottom:100px;
+}
 
   .text-section {
     max-width: 450px;
@@ -493,6 +498,7 @@ header {
 
   .works {
     flex-direction: column;
+    padding-bottom: 100px ;
   }
 
   .how-it-works {
@@ -557,9 +563,9 @@ header {
     );
   }
 
-  .responsive-image {
+  img.responsive-image {
     max-width: 460px;
-    max-height: 559px;
+    height: 559px;
   }
 
   .text-section h2 {
@@ -1220,7 +1226,7 @@ p {
   cursor: pointer;
 }
 
-.responsive-image {
+.responsive-image-two {
   border-radius: 30px;
   width: 100%;
   height: 273px;
