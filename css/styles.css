@@ -302,12 +302,6 @@ img {
   text-align: left;
 }
 
-.footer-nav-menu {
-  display: flex;
-  flex-direction: column; /* Dikey dizilim */
-  gap: 40px; /* Geniş ekranlar için boşluk */
-}
-
 .steps {
   list-style: none;
   counter-reset: step-counter;
@@ -400,7 +394,7 @@ img {
   border-radius: 12px;
   padding: 5px;
 }
-}
+
 
 @media screen and (min-width: 375x) {
   .disc-text {
