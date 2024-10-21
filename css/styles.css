@@ -99,6 +99,8 @@ header {
   border-radius: 30px !important;
   padding: 16px 32px !important;
   margin-left: 15px;
+  cursor: pointer;
+  margin-top: -25px;
 }
 
 .shop:hover {
