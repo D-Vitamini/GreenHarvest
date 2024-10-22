@@ -752,6 +752,7 @@ h1.organic-vegetables::after {
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
+  max-width: 334px;
 }
 
 .product-item:hover {
@@ -806,6 +807,9 @@ p {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
+  .product-item {
+    max-width: 342px;
+  }
 
   h2 {
     font-size: 24px;
@@ -825,13 +829,16 @@ p {
   h1.organic-vegetables::after {
     font-size: 64px;
   }
+  .product-item {
+    max-width: 346px;
+  }
 
   .product-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
   }
 }
-
+/*reviews */
 .container-reviews {
   padding: 80px 20px;
 }
