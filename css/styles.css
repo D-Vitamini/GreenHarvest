@@ -31,12 +31,11 @@ img {
 }
 
 
-
 header {
   width: 100%;
   height: 800px;
   position: relative;
-  margin: auto;
+
 }
 
 .navbar {
@@ -171,9 +170,9 @@ header {
   margin-top: 60px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   header {
-    width: 375px;
+    width: 100%;
     height: 812px;
   }
 
@@ -240,7 +239,7 @@ header {
 }
 
 
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1280px) {
 
   .backgroundRight {
     background-position: center;
@@ -306,5 +305,172 @@ header {
     font-size: 76px;
     line-height: 76px;
     letter-spacing: -1.5%;
+  }
+}
+
+.howit {
+  width: 100%;
+  height: 759px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.howitleft,
+.howitright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.howitleft {
+  background-color: #622133;
+}
+
+.howitright {
+  background-color: #576f35;
+}
+
+.howitimage {
+  width: 430px;
+  height: 559px;
+  border-radius: 30px;
+  background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url(../images/Rectangle.jpg) center / cover no-repeat;
+}
+
+.howitwrite {
+  width: 450px;
+  height: 499px;
+  gap: 50px;
+  margin-top: -50px;
+}
+
+.howith {
+  font-family: Inter Tight;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: white;
+}
+.howitspan {
+  font-family: Inter Tight;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.howitp {
+  width: 450px;
+  height: 60px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(251, 251, 251, 1);
+  margin-top: 30px;
+}
+
+.steps {
+  list-style: none;
+  counter-reset: step-counter;
+  padding-left: 0;
+  margin-top: 55px;
+}
+
+.steps li {
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #fbfbfb;
+  border-radius: 10px;
+  font-size: 16px;
+  color: rgba(20, 20, 20, 0.4);
+  box-sizing: border-box;
+  height: 80px;
+  width: 465px;
+  line-height: 80px;
+}
+
+.steps p {
+  padding-left: 70px;
+}
+
+.steps li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  position: absolute;
+  margin-left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #7a3145;
+  color: white;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 5px solid rgba(255, 255, 255, 0.6);
+}
+
+.steps-color {
+  color: #141414;
+  font-weight: bold;
+}
+
+.steps li p {
+  margin: 0;
+  margin-left: 40px;
+  line-height: 1.6;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.color-text-vegetable,
+.color-text-steps {
+  color: #fbfbfb4d;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .howit {
+    display: block;
+    width: 100%;
+  }
+  .howitleft {
+    width: 100%;
+  }
+  .howitright {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .howit {
+    display: block;
+    width: 100%;
+  }
+  .howitleft {
+    width: 100%;
+  }
+    
+  .howitright {
+    width: 100%;
   }
 }
