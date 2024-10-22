@@ -168,15 +168,19 @@ img {
   letter-spacing: -0.015em;
   text-align: left;
 }
-@media (min-width: 375px) {
 
+@media (min-width: 375px) {
   .athletic-woman {
     padding-bottom: 40px;
   }
+
   .responsive-image {
     max-width: 450px;
     width: 100%;
-    height: 450px;
+  }
+
+  .works {
+    padding-bottom: 100px;
   }
 
   .text-section {
@@ -184,6 +188,12 @@ img {
     width: 100%;
     height: 450px;
     padding-top: 80px;
+    font-size: 28px;
+  }
+
+  .color-text-steps,
+  .color-text-vegetable {
+    font-size: 28px;
   }
 
   .text-section p {
@@ -202,6 +212,7 @@ img {
     line-height: 10px;
     font-size: 12px;
   }
+
   .steps li::before {
     width: 42px;
     height: 42px;
@@ -215,29 +226,39 @@ img {
 
   .works {
     flex-direction: column;
+    width: 100%;
   }
 
   .how-it-works {
     color: #fbfbfb;
-    background: linear-gradient(
-      to bottom,
-      #7a3145 0%,
-      #7a3145 50%,
-      #576f35 50%,
-      #576f35 100%
-    );
+    background: linear-gradient(to bottom,
+        #7a3145 0%,
+        #7a3145 50%,
+        #576f35 50%,
+        #576f35 100%);
+        padding-bottom: 200px;
   }
 
-  .responsive-image {
+  img.responsive-image {
     width: 100%;
-    height: 558px;
+    max-width: 100%;
+    height: auto;
   }
 
   .text-section {
     width: 450px;
-    height: 558px;
     align-items: center;
     vertical-align: center;
+    margin-top: 160px;
+    font-size: 32px;
+  }
+
+  .athletic-woman {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    background-color: #7a3145;
+    padding: 20px;
   }
 
   .text-section h2 {
@@ -248,14 +269,19 @@ img {
   .steps p {
     font-size: 16px;
   }
+
+  .color-text-steps,
+  .color-text-vegetable {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 100px;
-    padding: 100px;
   }
+
   .works {
     display: flex;
     flex-direction: row;
@@ -265,23 +291,34 @@ img {
   }
 
   .athletic-woman {
-    padding-bottom: 0px;
+    padding: 0;
+    width: 100%;
+    max-width: 45%;
+    justify-content: left;
   }
+  .text-section{
+    margin-top: 0px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 
+  }
+  
   .how-it-works {
+    height: 759px;
     color: #fbfbfb;
-    background: linear-gradient(
-      to right,
-      #7a3145 0%,
-      #7a3145 50%,
-      #576f35 50%,
-      #576f35 100%
-    );
+    background: linear-gradient(to right,
+        #7a3145 0%,
+        #7a3145 50%,
+        #576f35 50%,
+        #576f35 100%);
   }
 
-  .responsive-image {
+  img.responsive-image {
     max-width: 460px;
-    max-height: 559px;
+    height: 559px;
   }
 
   .text-section h2 {
