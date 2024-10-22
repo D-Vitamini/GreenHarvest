@@ -361,7 +361,7 @@ img.responsive-image {
   max-width: 450px;
   width: 100%;
   height: 450px;
-  padding-top: 80px;
+  
 }
 
 .text-section h2 {
@@ -392,12 +392,13 @@ img.responsive-image {
   margin-bottom: 20px;
   background-color: #fbfbfb;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 12px;
+  line-height: 80px;
   color: rgba(20, 20, 20, 0.4);
   box-sizing: border-box;
   height: 80px;
   max-width: 450px;
-  line-height: 80px;
+  
 }
 
 .steps p {
@@ -446,6 +447,8 @@ img.responsive-image {
   text-align: left;
 }
 @media (min-width: 375px) {
+
+
   .athletic-woman {
     padding-bottom: 40px;
   }
@@ -488,6 +491,7 @@ img.responsive-image {
 }
 
 @media (min-width: 768px) {
+
   .container {
     padding: 100px 72px;
   }
@@ -564,6 +568,14 @@ img.responsive-image {
     height: 559px;
   }
 
+  .text-section {
+    margin-top: 0px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
   
   .text-section h2 {
     font-size: 32px;
