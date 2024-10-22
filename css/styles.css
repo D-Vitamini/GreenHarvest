@@ -236,7 +236,7 @@ img {
         #7a3145 50%,
         #576f35 50%,
         #576f35 100%);
-        padding-bottom: 200px;
+    padding-bottom: 200px;
   }
 
   img.responsive-image {
@@ -296,7 +296,8 @@ img {
     max-width: 45%;
     justify-content: left;
   }
-  .text-section{
+
+  .text-section {
     margin-top: 0px;
     margin-bottom: auto;
     display: flex;
@@ -305,7 +306,7 @@ img {
     align-items: stretch;
 
   }
-  
+
   .how-it-works {
     height: 759px;
     color: #fbfbfb;
